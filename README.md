@@ -1,7 +1,5 @@
 ### Describe the bug
 
-# Bug report
-
 Lets try to rewrite this svelte 4 code to svelte 5:
 
 --svelte 4
