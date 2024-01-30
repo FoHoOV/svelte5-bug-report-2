@@ -3,7 +3,7 @@
 	import type { PageData } from './$types';
 	import { browser } from '$app/environment';
 
-	export let data: PageData;
+	export let data: PageData; // data = [{id: 1,name: 'test-server'}, {id: 2, name: 'test-server2'}]
 
 	const clientData = readable([
 		{

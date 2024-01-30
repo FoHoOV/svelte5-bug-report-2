@@ -2,7 +2,7 @@
 	import { readable } from 'svelte/store';
 	import { browser } from '$app/environment';
 
-	const { data } = $props();
+	const { data } = $props(); // data = [{id: 1,name: 'test-server'}, {id: 2, name: 'test-server2'}]
 
 	const clientData = readable([
 		{
